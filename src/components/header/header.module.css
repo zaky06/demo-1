@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(36, 41, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    cursor: default;
+}
+
+@media screen and (max-width: 520px){
+    header {
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+abbr {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #61dafb;
+    cursor: help;
+}
