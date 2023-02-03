@@ -1,5 +1,6 @@
 import MovingComponent from 'react-moving-text'
 import style from "./movingArrow.module.css"
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const MovingArrow = () => {
     return (
@@ -11,7 +12,7 @@ const MovingArrow = () => {
         timing="ease"
         iteration="infinite"
         fillMode="none">
-        <a href="">Click me!</a>
+        <a href=""><AiOutlineArrowDown/></a>
       </MovingComponent>
     )
   }
