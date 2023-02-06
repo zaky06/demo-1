@@ -1,0 +1,23 @@
+.block2 {
+    height: 100vh;
+    display: flex;
+}
+
+figure img {
+    width: 500px;
+    transition: 2s;
+    margin: 10px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+figure img[alt="img1"]:hover {
+    transform: scale(1.3);
+}
+
+figure img[alt="img2"]:hover {
+    transform: scale(1.3);
+}

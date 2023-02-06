@@ -1,14 +1,15 @@
+import React, { Component } from "react";
 import { ScrollTo } from "react-scroll-to";
 import MovingArrow from "../movingArrow/movingArrow";
-function Scroll() {
+
+export default class MyComponent extends Component {
+  render() {
     return (
-        <ScrollTo>
-            {({ scroll }) => (
-            <a onClick={() => scroll({ y:500 })}><MovingArrow/></a>
-            )}
-        </ScrollTo>
-    )
+      <ScrollTo>
+        {({ scroll }) => (
+          <a onClick={() => scroll({  y: 900, smooth: true })}><MovingArrow/></a>
+        )}
+      </ScrollTo>
+    );
+  }
 }
-
-export default Scroll;
-
