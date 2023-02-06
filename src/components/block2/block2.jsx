@@ -13,6 +13,12 @@ function Block2() {
                 <a target={"_blank"} href="https://zaky06.github.io/cra-gh/">
                     <img src={img2} alt="img1" />
                 </a>
+                <a target={"_blank"} href="https://zaky06.github.io/cra-gh/">
+                    <img src={img2} alt="img1" />
+                </a>
+                <a target={"_blank"} href="https://zaky06.github.io/cra-gh/">
+                    <img src={img2} alt="img1" />
+                </a>
             </figure>
         </div>
     )
