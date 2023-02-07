@@ -1,6 +1,7 @@
 .block2 {
     height: 100vh;
     display: grid;
+    justify-items: center;
 }
 
 figure {

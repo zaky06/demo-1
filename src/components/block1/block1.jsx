@@ -1,7 +1,6 @@
 import style from './block1.module.css'
 import MovingHead from "../movingHead/movingHead";
-import Scroll from "../scroll/scroll";
-import MyComponent from '../scroll/scroll';
+import Scroll1 from '../scroll1/scroll1';
 
 function Block1() {
     return (
@@ -32,7 +31,7 @@ function Block1() {
                 </p>
             </div>
             <div className={style.arrow}>
-                <MyComponent/>
+                <Scroll1/>
             </div>
         </div>
     )

@@ -1,3 +1,4 @@
+import Scroll2 from '../scroll2/scroll2';
 import style from './block2.module.css'
 import img1 from "./IMG_5323.JPG";
 import img2 from "./IMG_5324.JPG";
@@ -20,6 +21,7 @@ function Block2() {
                     <img src={img2} alt="img1" />
                 </a>
             </figure>
+            <Scroll2/>
         </div>
     )
 }
