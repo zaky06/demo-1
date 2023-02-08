@@ -4,41 +4,47 @@
     justify-items: center;
 }
 
-figure {
+.content p {
+    grid-area: p;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.content {
     display: grid;
+    grid-area: content;
     grid-template-columns: 2;
     grid-template-rows: 2;
-    grid-template-areas: "figcaption figcaption"
-                         "figImg figImg";
-    justify-content: center;
+    grid-template-areas: "p p"
+                         "modal modal";
+                         align-items: center;
+                         justify-items: center;
+}
+
+.modal {
+    grid-area: modal;
+}
+
+.content img {
+    width: 500px;
 }
 
 @media screen and (max-width: 1140px) {
-    figure {
+    content {
         display: grid;
         grid-template-columns: 1;
-        grid-template-areas: "figcaption"
-                             "figImg";
+        grid-template-areas: "p"
+                             "content";
         justify-content: center;
     }
 }
 
-figure img {
-    width: 500px;
-    transition: 2s;
-}
 
 @media screen and (max-width: 1140px) {
-    figure img {
+    content img {
         width: 700px;
     }
 }
 
-figcaption {
-    grid-area: figcaption;
-    text-align: center;
-}
-
-figure img {
-    grid-area: figImg;
-}

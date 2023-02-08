@@ -1,0 +1,38 @@
+.block2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block2 h2 {
+    text-align: center;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.content p {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.elems {
+    cursor: pointer;
+}
+
+.content img {
+    width: 500px;
+}
+
+.scroll2 {
+    display: flex;
+    justify-content: center;
+}
+
