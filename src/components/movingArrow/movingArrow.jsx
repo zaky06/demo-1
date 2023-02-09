@@ -12,7 +12,7 @@ const MovingArrow = () => {
         timing="ease"
         iteration="infinite"
         fillMode="none">
-        <span href=""><AiOutlineArrowDown/></span>
+        <span className={style.movArrow} href=""><AiOutlineArrowDown/></span>
       </MovingComponent>
     )
   }

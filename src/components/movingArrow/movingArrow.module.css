@@ -1,10 +1,10 @@
-span {
+.movArrow {
     text-decoration: none;
     color: #404040;
     font-size: 40px;
     transition: 1s;
 }
 
-span:hover {
+.movArrow:hover {
     font-size: 60px;
 }
