@@ -1,3 +1,17 @@
 .block3 {
     height: 100vh;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.wrapper h2 {
+    margin: 10px;
+    text-align: center;
+}

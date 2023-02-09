@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import style from './modal.module.css'
+import style from './modalImg.module.css'
 // import img1 from "./IMG_5323.JPG";
 
 
-function Example(props) {
+function ModalImg(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,4 +25,4 @@ function Example(props) {
   );
 }
 
-export default Example;
+export default ModalImg;
