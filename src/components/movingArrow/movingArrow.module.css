@@ -6,5 +6,5 @@
 }
 
 .movArrow:hover {
-    font-size: 60px;
+    cursor: pointer;
 }

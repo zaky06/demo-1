@@ -4,9 +4,10 @@
 }
 
 .block1 {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .nameHead  {
@@ -55,7 +56,7 @@
     margin: 5px;
 }
 
-.arrow {
-    margin-top: 80px;
+.scroll1 {
+    /* margin-top: 80px; */
     align-self: center;
 }

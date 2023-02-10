@@ -8,7 +8,7 @@ function DarkTable() {
         <tr>
           <th>#</th>
           <th>Языки</th>
-          <th>Шкала умений</th>
+          <th>Прогресс</th>
           <th>Циф.</th>
         </tr>
       </thead>

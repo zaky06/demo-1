@@ -3,13 +3,13 @@ import MovingHead from "../movingHead/movingHead";
 import Scroll1 from '../scroll1/scroll1';
 
 function Block1() {
+
     return (
         <div className={style.block1}>
-            <div className={style.nameHead}>
-                <MovingHead/>
-            </div>
             <div className={style.wrapper}>
-                <h4>небольшое описание:</h4>
+                <div className={style.nameHead}>
+                    <MovingHead/>
+                </div>
                 <hr />
                 <strong>Demo-1</strong>
                 <p>
@@ -30,7 +30,7 @@ function Block1() {
                     Вот там я реально запарился))
                 </p>
             </div>
-            <div className={style.arrow}>
+            <div className={style.scroll1}>
                 <Scroll1/>
             </div>
         </div>
