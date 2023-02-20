@@ -10,16 +10,25 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 450px) {
+    .block1  {
+        height: auto;
+    }
+}
+
 .nameHead  {
     font-family: 'Itim';
     font-size: 60px;
     color: #212529;
     margin: 0;
-}
-
-.nameHead {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .nameHead  {
+        display: none;
+    }
 }
 
 .wrapper {
@@ -30,6 +39,12 @@
     border: 1px solid #b3b3b3;
     width: fit-content;
     align-self: center;
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        padding: 5px;
+    }
 }
 
 .wrapper h4 {

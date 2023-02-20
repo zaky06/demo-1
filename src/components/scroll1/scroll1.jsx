@@ -33,7 +33,7 @@ useEffect(() => {
           <div id="hide">
                 <ScrollTo>
                   {({ scroll }) => (
-                    <a onClick={() => scroll({  y: 660, smooth: true })}><MovingArrow/></a>
+                    <a onClick={() => scroll({  y: 560, smooth: true })}><MovingArrow/></a>
                   )}
                 </ScrollTo>  
           </div>
