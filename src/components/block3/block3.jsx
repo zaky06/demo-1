@@ -3,6 +3,7 @@ import style from './block3.module.css'
 import img1 from "./IMG_5323.JPG";
 import img2 from "./IMG_5324.JPG";
 import ModalImg from '../modalImg/modalImg';
+import ControlledCarousel from '../carousel/carousel';
 
 function Block3() {
     return (
@@ -17,6 +18,9 @@ function Block3() {
                 <ModalImg img={img1}/>
                 <ModalImg img={img1}/>
                 </div>
+            </div>
+            <div className={style.carousel}>
+                <ControlledCarousel/>
             </div>
         </div>
     )
